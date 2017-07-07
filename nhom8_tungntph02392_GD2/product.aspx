@@ -131,7 +131,7 @@
                         <asp:Parameter Name="id" Type="Int32" />
                     </UpdateParameters>
                 </asp:SqlDataSource>
-                <header id="Header3" style="color:red;font-size:20px;font-weight:bold;">Hóa Đơn</header>
+                <header id="Header3" style="color:green;font-size:20px;font-weight:bold;">Hóa Đơn</header>
                 <asp:DetailsView ID="DetailsView4" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="SqlDataSource4">
                     <Fields>
                         <asp:BoundField DataField="id" HeaderText="id" ReadOnly="True" SortExpression="id" />
