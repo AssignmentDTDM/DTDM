@@ -83,7 +83,7 @@
                     </UpdateParameters>
                 </asp:SqlDataSource>
 
-                <header id="Header1" style="color: #00ff90;font-size:20px;font-weight:bold;">Khách Hàng</header>
+                <header id="Header1" style="color: #4cff00;font-size:20px;font-weight:bold;">Khách Hàng</header>
                 <asp:DetailsView ID="DetailsView2" runat="server" Height="50px" Width="125px" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="SqlDataSource2">
                     <Fields>
                         <asp:BoundField DataField="id" HeaderText="id" ReadOnly="True" SortExpression="id" />
